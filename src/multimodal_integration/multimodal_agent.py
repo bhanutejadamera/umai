@@ -10,7 +10,7 @@ class MultiModalAgent:
         self.clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
         # Load a pre-trained NLP model for text-based tasks
-        self.nlp_model = pipeline("text-generation", model="gpt-2")
+        self.nlp_model = pipeline("text-generation", model="gpt2")
 
     def process_text(self, text):
         """Generate text using a pre-trained NLP model."""
