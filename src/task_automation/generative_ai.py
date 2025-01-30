@@ -3,7 +3,7 @@ from transformers import pipeline
 
 class TaskAutomation:
     def __init__(self):
-        self.generator = pipeline("text-generation", model="gpt-2")
+        self.generator = pipeline("text-generation", model="gpt2")
 
     def generate_code(self, prompt):
         """Generate code or scripts using a generative AI model."""
