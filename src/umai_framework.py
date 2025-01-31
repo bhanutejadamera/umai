@@ -1,8 +1,8 @@
 # src/umai_framework.py
-from multimodal_integration.multimodal_agent import MultiModalAgent
-from distributed_execution.spark_executor import SparkExecutor
-from optimization_engine.optimizer import Optimizer
-from task_automation.generative_ai import TaskAutomation
+from src.multimodal_integration.multimodal_agent import MultiModalAgent
+from src.distributed_execution.spark_executor import SparkExecutor
+from src.optimization_engine.optimizer import Optimizer
+from src.task_automation.generative_ai import TaskAutomation
 
 class UMAI:
     def __init__(self):
